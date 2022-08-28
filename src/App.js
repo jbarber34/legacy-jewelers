@@ -1,19 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
 import './styles.css';
 import Nav from './components/Nav';
 import Title from './components/Title';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <div>
       <Nav />
-      {/* Title Section */}
-      <div className='container-fluid'>
-        <Title />
+      <div className='grid'>
+        {/* Title Section */}
+        <div className='container-fluid'>
+          <Title />
+        </div>
+        {/* Contact Us Section */}
+        <div>
+          <Contact />
+        </div>
       </div>
-      {/* Contact Us Section */}
-      <div></div>
       {/* <div className='App'>
         <header className='App-header'>
           <img src={logo} className='App-logo' alt='logo' />

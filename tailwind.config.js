@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         legacyGold: '#C6AA76',
       },
+      borderWidth: {
+        16: '16px',
+      },
     },
   },
   plugins: [],

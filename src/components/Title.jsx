@@ -2,11 +2,11 @@
 
 function Title() {
   return (
-    <div className='grid grid-cols-3 gap-8 bg-legacyGold'>
-      <div></div>
+    <div className='grid-rows-1 bg-legacyGold'>
       <img
-        className='title-image'
+        className='m-auto title-image'
         src='/LJ_Coming_Soon_White.jpg'
+        width={400}
         alt='coming soon'
       />
     </div>
@@ -14,3 +14,15 @@ function Title() {
 }
 
 export default Title;
+
+{
+  /* <div className='row'>
+      <div className='col-lg-6 rounded mx-auto d-block'>
+        <img
+          //   className={classes['title-image']}
+          src='/LJ_Coming_Soon_White.jpg'
+          alt='LJ logo'
+        />
+      </div>
+    </div> */
+}
