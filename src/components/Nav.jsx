@@ -10,11 +10,15 @@ function Nav() {
           <div className='flex items-center justify-between h-16'>
             <div className='flex items-center'>
               <div className='flex-shrink-0'>
-                <img
-                  className='absolute left-10 top-2 h-auto w-20'
-                  src='/LJ_Logo_Black.jpg'
-                  alt='Legacy Logo'
-                />
+                <div>
+                  <a href='/'>
+                    <img
+                      className='absolute left-10 top-2 h-auto w-20'
+                      src='/LJ_Logo_Black.jpg'
+                      alt='Legacy Logo'
+                    />
+                  </a>
+                </div>
               </div>
               <div className='hidden md:block'>
                 <div className='absolute right-10 top-4'>

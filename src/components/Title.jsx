@@ -15,8 +15,7 @@ function Title() {
 
 export default Title;
 
-{
-  /* <div className='row'>
+/* <div className='row'>
       <div className='col-lg-6 rounded mx-auto d-block'>
         <img
           //   className={classes['title-image']}
@@ -25,4 +24,3 @@ export default Title;
         />
       </div>
     </div> */
-}

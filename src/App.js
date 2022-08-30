@@ -3,6 +3,7 @@ import './styles.css';
 import Nav from './components/Nav';
 import Title from './components/Title';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         {/* Contact Us Section */}
         <div>
           <Contact />
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
       {/* <div className='App'>
