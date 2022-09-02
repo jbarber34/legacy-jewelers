@@ -8,7 +8,7 @@ export default function Map() {
         // style='border:0'
         loading='lazy'
         allowfullscreen
-        src='https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ8au67hrkmoARCw7rf9Ddejs&key=${process.env.REACT_APP_GOOGLE_MAPS_KEY}'
+        src={process.env.REACT_APP_GOOGLE_MAPS_KEY}
       ></iframe>
     </div>
   );
@@ -20,7 +20,7 @@ export default function Map() {
 
 // export default function Map() {
 // const { isLoaded } = useLoadScript({
-//   googleMapsApiKey: '',
+//   googleMapsApiKey: {process.env.REACT_APP_GOOGLE_MAPS_KEY},
 //   libraries,
 // });
 
