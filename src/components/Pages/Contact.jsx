@@ -1,4 +1,4 @@
-import Map from './Map';
+// import Map from './Map';
 
 function Contact() {
   return (
@@ -6,8 +6,8 @@ function Contact() {
       {/* <div className='lg:my-24 lg:grid lg:grid-cols-2 lg:gap-4 place-content-evenly h-48'> */}
       <div>
         <div>
-          {' '}
-          <Map />{' '}
+          {/* {' '}
+          <Map />{' '} */}
         </div>
         <div className='lg:mt-12 lg:mx-auto border-16 border-black lg:max-w-screen-sm'>
           <h1 className='text-center ml-2 mt-2 text-2xl'> Contact Us </h1>

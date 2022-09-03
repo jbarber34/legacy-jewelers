@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Transition } from '@headlessui/react';
+import { NavLink as Link } from 'react-router-dom';
 
-function Nav() {
+function AboutNav(props) {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
@@ -11,36 +12,29 @@ function Nav() {
             <div className='flex items-center'>
               <div className='flex-shrink-0'>
                 <div>
-                  <a href='/'>
+                  <Link to='/'>
                     <img
                       className='absolute left-10 top-2 h-auto w-20'
                       src='/LJ_Logo_Black.jpg'
                       alt='Legacy Logo'
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className='hidden md:block'>
                 <div className='absolute right-10 top-4'>
-                  <a
-                    href='/'
+                  <Link
+                    to='/'
                     className=' hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium'
                   >
-                    About Us
-                  </a>
+                    Home
+                  </Link>
 
                   <a
-                    href='/'
+                    href='#legacyTeam'
                     className='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
                   >
                     Legacy Team
-                  </a>
-
-                  <a
-                    href='#contact'
-                    className='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
-                  >
-                    Contact Us
                   </a>
                 </div>
               </div>
@@ -133,4 +127,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default AboutNav;
