@@ -6,7 +6,7 @@ function AboutUs() {
     <div>
       <AboutNav />
       <div>
-        <h1 className='text-center mt-12 mb-2 text-2xl'>
+        <h1 className='container-fluid text-center mb-2 text-2xl'>
           About Legacy Jewelers
         </h1>
         <p className='mb-12 px-36'>
@@ -46,23 +46,29 @@ function AboutUs() {
         </p>
       </div>
       <section id='legacyTeam'>
-        <div className='mb-12 px-36'>
-          <h1 className='text-center mb-2 text-2xl'>Meet the Legacy Team</h1>
-          <h3 className='text-2xl my-2'>Kevin</h3>
-          <p className='indent-8'>
-            Hi my name is Kevin Saelee, born and raised in Sacramento, CA. A
-            father of one, to my daughter Sophia. I'm into basketball, football
-            and anything my daughter is into because she's my world. My favorite
-            teams are the Los Angeles Lakers, San Francisco Forty Niners and New
-            York Yankees.
-          </p>
-          <p className='mt-2 indent-8'>
-            I've been in the jewelry industry for over 15 years serving the
-            greater Sacramento area from Elk Grove, Sacramento, Folsom and
-            Granite Bay. My partner Nick and I decided it was time to take our
-            experience, knowledge and bring an atmosphere where everyone feels
-            welcome when they step into our store. It's the Legacy Jewelers way!
-          </p>
+        <div className=''>
+          <h1 className='container-fluid text-center mb-2 text-2xl'>
+            Meet the Legacy Team
+          </h1>
+
+          <div className='mb-12 px-36'>
+            <h3 className='text-2xl my-2'>Kevin</h3>
+            <p className='indent-8'>
+              Hi my name is Kevin Saelee, born and raised in Sacramento, CA. A
+              father of one, to my daughter Sophia. I'm into basketball,
+              football and anything my daughter is into because she's my world.
+              My favorite teams are the Los Angeles Lakers, San Francisco Forty
+              Niners and New York Yankees.
+            </p>
+            <p className='mt-2 indent-8'>
+              I've been in the jewelry industry for over 15 years serving the
+              greater Sacramento area from Elk Grove, Sacramento, Folsom and
+              Granite Bay. My partner Nick and I decided it was time to take our
+              experience, knowledge and bring an atmosphere where everyone feels
+              welcome when they step into our store. It's the Legacy Jewelers
+              way!
+            </p>
+          </div>
         </div>
       </section>
       <div className='grid grid-rows-1 bg-black'>
