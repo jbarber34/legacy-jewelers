@@ -14,19 +14,40 @@ function Contact() {
           <table cellPadding={6} className='m-auto'>
             <tr>
               <td>
-                <i className='fa fa-phone'></i>
+                <i className='fa fa-phone text-2xl'></i>
               </td>
               <td>(916) 510-2130</td>
             </tr>
             <tr>
               <td>
-                <i className='fas fa-store'></i>
+                <i className='fas fa-store text-xl'></i>
               </td>
               <td>
                 618 E Bidwell St. <br /> Folsom, CA 95630
               </td>
             </tr>
           </table>
+          <div className='text-center'>
+            <a
+              className='p-3'
+              href='https://instagram.com/legacyjewelersca?igshid=YmMyMTA2M2Y='
+            >
+              <i className='fa fa-instagram text-3xl hover:text-legacyGold'>
+                {' '}
+              </i>
+            </a>
+            <a
+              className='p-3'
+              href='https://m.facebook.com/YourLegacyJewelers/'
+            >
+              <i className='fa fa-facebook text-3xl  hover:text-legacyGold'>
+                {' '}
+              </i>
+            </a>
+            <a className='p-3' href='https://yelp.to/A8bKkCzh5sb'>
+              <i className='fa fa-yelp text-3xl  hover:text-legacyGold'> </i>
+            </a>
+          </div>
         </div>
       </div>
     </section>
