@@ -76,24 +76,14 @@ function AboutUs() {
               eiusmod tempor incididunt ut labore et dolore magna aliqua. In
               ante metus dictum at tempor. Ornare aenean euismod elementum nisi.
               Sed arcu non odio euismod lacinia at quis risus sed. Et tortor at
-              risus viverra adipiscing. Nam at lectus urna duis convallis
-              convallis tellus. Ultrices gravida dictum fusce ut. Auctor neque
-              vitae tempus quam pellentesque nec. Auctor eu augue ut lectus
-              arcu. Congue quisque egestas diam in arcu cursus euismod quis.
-              Laoreet non curabitur gravida arcu ac. In nulla posuere
-              sollicitudin aliquam ultrices.
+              risus viverra adipiscing.
             </p>
             <p className='mt-2 indent-8'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. In
               ante metus dictum at tempor. Ornare aenean euismod elementum nisi.
               Sed arcu non odio euismod lacinia at quis risus sed. Et tortor at
-              risus viverra adipiscing. Nam at lectus urna duis convallis
-              convallis tellus. Ultrices gravida dictum fusce ut. Auctor neque
-              vitae tempus quam pellentesque nec. Auctor eu augue ut lectus
-              arcu. Congue quisque egestas diam in arcu cursus euismod quis.
-              Laoreet non curabitur gravida arcu ac. In nulla posuere
-              sollicitudin aliquam ultrices. way!
+              risus viverra adipiscing.
             </p>
           </div>
         </div>
