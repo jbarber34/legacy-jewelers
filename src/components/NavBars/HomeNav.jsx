@@ -27,7 +27,7 @@ function HomeNav(props) {
                     to='/about'
                     className=' hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium'
                   >
-                    About Us
+                    About Legacy
                   </Link>
 
                   <a
