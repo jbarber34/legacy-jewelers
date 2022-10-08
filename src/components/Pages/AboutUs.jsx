@@ -5,11 +5,21 @@ function AboutUs() {
   return (
     <div>
       <AboutNav />
-      <div>
-        <h1 className='container-fluid text-center mb-2 text-2xl'>
+      <div className='px-36 pt-8 pb-8 bg-legacyGold'>
+        <h1 className='container-fluid text-center text-2xl bg-black text-white'>
           About Legacy Jewelers
         </h1>
-        <p className='mb-12 px-36'>
+        <div className='px-36 bg-white'>
+          <h3 className='text-2xl pt-8 mr-72'>Mission Statement</h3>
+          <p className='py-2 bg-white'>
+            Legacy Jewelers is committed to providing high-quality fine jewelry
+            at an affordable price. We are here to serve our community with
+            excellent customer service above the industry standard, it is the
+            Legacy way!
+          </p>
+        </div>
+
+        <p className='py-8 px-36 bg-white'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. In ante
           metus dictum at tempor. Ornare aenean euismod elementum nisi. Sed arcu
@@ -23,36 +33,17 @@ function AboutUs() {
           et magnis dis parturient montes nascetur. Ipsum consequat nisl vel
           pretium. Est placerat in egestas erat imperdiet sed euismod nisi. Sed
           velit dignissim sodales ut eu. Id volutpat lacus laoreet non
-          curabitur. Amet massa vitae tortor condimentum lacinia quis vel eros
-          donec. Lacus sed turpis tincidunt id. Facilisi nullam vehicula ipsum a
-          arcu. Enim nec dui nunc mattis enim ut tellus. Nunc sed augue lacus
-          viverra vitae. Ultricies mi quis hendrerit dolor magna. Neque egestas
-          congue quisque egestas diam in arcu cursus euismod. Convallis posuere
-          morbi leo urna molestie at. Lectus mauris ultrices eros in cursus.
-          Aliquet nibh praesent tristique magna sit amet purus gravida. Pretium
-          viverra suspendisse potenti nullam ac tortor vitae purus. Condimentum
-          id venenatis a condimentum vitae. Diam quis enim lobortis scelerisque
-          fermentum dui. Imperdiet dui accumsan sit amet nulla facilisi morbi.
-          Gravida cum sociis natoque penatibus et magnis dis parturient montes.
-          Ultricies lacus sed turpis tincidunt id aliquet risus. Auctor neque
-          vitae tempus quam pellentesque nec nam aliquam sem. Laoreet
-          suspendisse interdum consectetur libero id faucibus. Fringilla est
-          ullamcorper eget nulla facilisi etiam. Quis hendrerit dolor magna eget
-          est lorem ipsum. Ipsum faucibus vitae aliquet nec ullamcorper sit amet
-          risus. Mauris nunc congue nisi vitae suscipit. Nulla pellentesque
-          dignissim enim sit amet venenatis urna cursus eget. Aliquet risus
-          feugiat in ante metus dictum at tempor commodo. Volutpat blandit
-          aliquam etiam erat.
+          curabitur.
         </p>
       </div>
       <section id='legacyTeam'>
-        <div className=''>
-          <h1 className='container-fluid text-center mb-2 text-2xl'>
+        <div className='px-36 pb-8 bg-legacyGold'>
+          <h1 className='container-fluid text-center text-2xl bg-black text-white'>
             Meet the Legacy Team
           </h1>
 
-          <div className='mb-12 px-36'>
-            <h3 className='text-2xl my-2'>Kevin</h3>
+          <div className='px-36 pb-8 bg-white'>
+            <h3 className='text-2xl py-2 mr-96'>Kevin</h3>
             <p className='indent-8'>
               Hi my name is Kevin Saelee, born and raised in Sacramento, CA. A
               father of one, to my daughter Sophia. I'm into basketball,
@@ -69,8 +60,8 @@ function AboutUs() {
               way!
             </p>
           </div>
-          <div className='mb-12 px-36'>
-            <h3 className='text-2xl my-2'>Nick</h3>
+          <div className='pb-8 px-36 bg-white'>
+            <h3 className='text-2xl py-2'>Nick</h3>
             <p className='indent-8'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. In
