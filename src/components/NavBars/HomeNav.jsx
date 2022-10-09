@@ -25,14 +25,19 @@ function HomeNav(props) {
                 <div className='absolute right-10 top-4'>
                   <Link
                     to='/about'
-                    className=' hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium'
+                    className='hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium'
                   >
                     About Legacy
                   </Link>
-
+                  <a
+                    href='/#services'
+                    className='hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium'
+                  >
+                    Services
+                  </a>
                   <a
                     href='/#contact'
-                    className='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
+                    className='hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium'
                   >
                     Contact Us
                   </a>
