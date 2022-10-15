@@ -12,10 +12,10 @@ function AboutUs() {
         <div className='px-36 bg-white'>
           <h3 className='text-2xl pt-8 mr-72'>Mission Statement</h3>
           <p className='py-2 bg-white'>
-            Legacy Jewelers is committed to providing high-quality fine jewelry
-            at an affordable price. We are here to serve our community with
-            excellent customer service above the industry standard, it is the
-            Legacy way!
+            At Legacy Jewelers, we are committed to providing high-quality fine
+            jewelry at an affordable price. We are here to serve our community
+            with excellent customer service above the industry standard, it is
+            the Legacy way!
           </p>
         </div>
 
