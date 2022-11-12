@@ -151,10 +151,16 @@ export default function Testimonials() {
           </CarouselProvider>
         </div>
       </div>
-      <div className='h-full mx-8 bg-black text-white flex flex-col justify-between'>
-        <p className='text-center my-auto px-4 py-4'>
-          Choose our <br /> 5 YEAR <br /> payment plan at 9.99% <br /> or <br />
-          12 MONTHS <br /> 0% interest financing
+      <div className='h-full mx-8 bg-black text-white flex flex-col justify-between min-w-min'>
+        <p className='text-center my-auto px-4 pb-12'>
+          <img src='/financing_image.png' alt='engagement ring' />
+          <p>Choose our</p>{' '}
+          <p className='text-legacyGold text-2xl font-extrabold'>5 YEAR </p>{' '}
+          <p>payment plan at 9.99% </p> <p className='cursiveFont'>or</p>
+          <p className='text-legacyGold text-2xl font-extrabold'>
+            12 MONTHS{' '}
+          </p>{' '}
+          <p>0% interest financing</p>
         </p>
       </div>
     </div>
