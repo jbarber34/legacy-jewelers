@@ -1,12 +1,16 @@
-import Footer from '../Footer';
-import AboutNav from '../NavBars/AboutNav';
+// import Footer from '../Footer';
+// import AboutNav from '../NavBars/AboutNav';
 
-function AboutUs() {
+export default function About() {
   return (
     <div>
-      <AboutNav />
-      <div className='px-36 pt-8 pb-8 bg-legacyGold'>
-        <h1 className='container-fluid text-center text-2xl bg-black text-white'>
+      {/* <AboutNav /> */}
+      <div className='lg:px-36 pt-16 pb-8'>
+        <h1
+          className='container-fluid text-center text-2xl mt-8
+        before:inline-block before:lg:w-52 before:md:w-40 before:sm:w-24 before:w-24 before:h-1 before:bg-legacyGold before:mb-2 before:mr-8
+        after:inline-block after:lg:w-52 after:md:w-40 after:sm:w-24 after:w-24 after:h-1 after:bg-legacyGold after:mb-2 after:ml-8'
+        >
           About Legacy Jewelers
         </h1>
         <div className='px-36 bg-white'>
@@ -37,15 +41,19 @@ function AboutUs() {
         </p>
       </div>
       <section id='legacyTeam'>
-        <div className='px-36 pb-8 bg-legacyGold'>
-          <h1 className='container-fluid text-center text-2xl bg-black text-white'>
+        <div className='lg:px-36 pb-8'>
+          <h1
+            className='container-fluid text-center text-2xl mt-8
+        before:inline-block before:lg:w-52 before:md:w-40 before:sm:w-24 before:w-24 before:h-1 before:bg-legacyGold before:mb-2 before:mr-8
+        after:inline-block after:lg:w-52 after:md:w-40 after:sm:w-24 after:w-24 after:h-1 after:bg-legacyGold after:mb-2 after:ml-8'
+          >
             Meet the Legacy Team
           </h1>
 
           <div className='px-36 pb-8 bg-white'>
             <h3 className='text-2xl py-2 mr-96'>Kevin</h3>
             <p className='indent-8'>
-              Hi my name is Kevin Saelee, born and raised in Sacramento, CA. A
+              Hi, my name is Kevin Saelee, born and raised in Sacramento, CA. A
               father of one, to my daughter Sophia. I'm into basketball,
               football and anything my daughter is into because she's my world.
               My favorite teams are the Los Angeles Lakers, San Francisco Forty
@@ -79,11 +87,9 @@ function AboutUs() {
           </div>
         </div>
       </section>
-      <div className='grid grid-rows-1 bg-black'>
-        <Footer />
-      </div>
+      {/* <div className='grid grid-rows-1 bg-black'>
+          <Footer />
+        </div> */}
     </div>
   );
 }
-
-export default AboutUs;

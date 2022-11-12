@@ -1,9 +1,13 @@
-function Services() {
+export default function Services() {
   return (
     <section id='services'>
       <div className='bg-black pb-24 md:px-12'>
         <div className='pt-16 bg-black'>
-          <h1 className='rounded-lg text-center text-4xl lg:mx-96 md:mx-52 min-w-fit px-2 bg-legacyGold text-white font-extrabold drop-shadow-xl shadow-black'>
+          <h1
+            className='before:inline-block before:md:w-52 before:sm:w-40 before:w-24 before:h-1 before:bg-legacyGold before:mb-2 before:mr-8
+            after:inline-block after:md:w-52 after:sm:w-40 after:w-24 after:h-1 after:bg-legacyGold after:mb-2 after:ml-8
+            rounded-lg text-center text-4xl  px-2 text-white font-extrabold drop-shadow-xl shadow-black'
+          >
             Services
           </h1>
         </div>
@@ -31,5 +35,3 @@ function Services() {
     </section>
   );
 }
-
-export default Services;

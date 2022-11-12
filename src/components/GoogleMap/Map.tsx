@@ -7,7 +7,7 @@ export default function Map() {
         // height='400'
         // style='border:0'
         loading='lazy'
-        allowfullscreen
+        allowFullScreen
         src={process.env.REACT_APP_GOOGLE_MAPS_KEY}
       ></iframe>
     </div>
