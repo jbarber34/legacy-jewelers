@@ -152,7 +152,7 @@ export default function Testimonials() {
         </div>
       </div>
       <div className='h-full mx-8 bg-black text-white flex flex-col justify-between min-w-min'>
-        <p className='text-center my-auto px-4 pb-12'>
+        <div className='text-center my-auto px-4 pb-12'>
           <img src='/financing_image.png' alt='engagement ring' />
           <p>Choose our</p>{' '}
           <p className='text-legacyGold text-2xl font-extrabold'>5 YEAR </p>{' '}
@@ -161,7 +161,7 @@ export default function Testimonials() {
             12 MONTHS{' '}
           </p>{' '}
           <p>0% interest financing</p>
-        </p>
+        </div>
       </div>
     </div>
   );

@@ -106,9 +106,9 @@ export default function Footer() {
                     />
                   </td>
                   <td className='text-sm'>
-                    Tue- Fri: 11:00am – 7:00pm <br />
-                    Sat: 11:00am - 5:00pm <br />
-                    Sunday - Monday: By Appointment only
+                    Mon-Fri: 10:00am – 6:00pm <br />
+                    Sat: 10:00am - 5:00pm <br />
+                    Sunday: Closed
                   </td>
                 </tr>
               </tbody>
